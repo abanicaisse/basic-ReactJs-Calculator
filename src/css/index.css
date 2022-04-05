@@ -1,0 +1,80 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+#root {
+  width: 100%;
+}
+
+.screen {
+  margin: auto;
+  /* height: 8rem; */
+  width: min(30rem, 90%);
+  background-color: black;
+  color: white;
+  display: grid;
+  gap: .5rem;
+  align-items: center;
+  text-align: right;
+  padding: .5rem;
+}
+
+.input, .output {
+  position: relative;
+  background-color: white;
+  padding: 1rem .75rem;
+  cursor: text;
+  color: black;
+  font-size: 1.5rem;
+  overflow-x: auto;
+}
+
+/* .input::after, .output::after {
+  position: absolute;
+  content: "I";
+  top: 28%;
+  right: 2%;
+  padding-left: .5rem;
+} */
+
+.keypad {
+  margin: auto;
+  width: min(30rem, 90%);
+  background-color: darkgrey;
+  display: flex;
+}
+
+.keypad .keys {
+  width: 80%;
+  background-color: lightgray;
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.key {
+  /* background-color: blue; */
+  display: grid;
+  place-items: center;
+  padding: 1.5rem 0;
+  font-size: 1.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.keypad .operators {
+  width: 20%;
+  background-color: blueviolet;
+}
+
+

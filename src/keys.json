@@ -1,0 +1,87 @@
+[
+    {
+        "keyID": "1",
+        "keyValue": 1,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "2",
+        "keyValue": 2,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "3",
+        "keyValue": 3,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "4",
+        "keyValue": 4,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "5",
+        "keyValue": 5,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "6",
+        "keyValue": 6,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "7",
+        "keyValue": 7,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "8",
+        "keyValue": 8,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "9",
+        "keyValue": 9,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "10",
+        "keyValue": ".",
+        "keyType": "normal"
+    },
+    {
+        "keyID": "0",
+        "keyValue": 0,
+        "keyType": "normal"
+    },
+    {
+        "keyID": "11",
+        "keyValue": "=",
+        "keyType": "evaluate"
+    },
+    {
+        "keyID": "12",
+        "keyValue": "DEL",
+        "keyType": "delete"
+    },
+    {
+        "keyID": "13",
+        "keyValue": "/",
+        "keyType": "operator"
+    },
+    {
+        "keyID": "14",
+        "keyValue": "*",
+        "keyType": "operator"
+    },
+    {
+        "keyID": "16",
+        "keyValue": "-",
+        "keyType": "operator"
+    },
+    {
+        "keyID": "15",
+        "keyValue": "+",
+        "keyType": "operator"
+    }
+]
